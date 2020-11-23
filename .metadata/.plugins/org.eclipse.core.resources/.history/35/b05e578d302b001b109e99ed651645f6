@@ -1,0 +1,7 @@
+package kr.ac.jbnu.awp.spring.P2;
+
+public class JDBCDao implements IDao {
+	public String executeQuery() {
+		return "Execute Query in JDBCDao";
+	}
+}

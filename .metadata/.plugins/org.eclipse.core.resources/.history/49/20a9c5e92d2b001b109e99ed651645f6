@@ -1,0 +1,12 @@
+package kr.ac.jbnu.awp.spring.P2;
+
+public class TestDI {
+	public static void main(String[] args) {
+		ApplicationContext appContext = new ClassPathXmlApplicationContext("META-INF/spring-context.xml");
+		
+		BeanFactory factory = appContext;
+		
+		PersistentManager pm = (PersistentManager) factory.getBean("pm");
+		pm.executeQuery();
+}
+}

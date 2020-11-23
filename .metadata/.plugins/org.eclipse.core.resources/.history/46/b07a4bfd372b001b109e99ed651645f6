@@ -1,0 +1,14 @@
+package kr.ac.jbnu.awp.spring.P3;
+
+public UserVO get(UserVO vo){
+	// 스프링에서 지원하는 StopWatch라는 클래스가 있음
+	StopWatch sw = new StopWatch();
+	sw.start();
+	
+	UserVO result = sqlSession.selectOne("user.getByEmailAndPwd", vo);
+	
+	sw.stop();
+	Long time = sw.getTotalTimeMillis();
+	
+	return result;
+}
