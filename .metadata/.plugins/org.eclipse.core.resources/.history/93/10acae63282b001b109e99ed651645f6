@@ -1,5 +1,0 @@
-package P1;
-
-public interface IMessageService {
-	String getMessage();
-}

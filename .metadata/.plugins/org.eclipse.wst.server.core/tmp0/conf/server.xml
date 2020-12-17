@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebHW" path="/WebHW" reloadable="true" source="org.eclipse.jst.jee.server:WebHW"/><Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_product" path="/springproduct" reloadable="true" source="org.eclipse.jst.jee.server:spring_product"/></Host>
+      <Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebHW" path="/WebHW" reloadable="true" source="org.eclipse.jst.jee.server:WebHW"/><Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_product" path="/springproduct" reloadable="true" source="org.eclipse.jst.jee.server:spring_product"/><Context docBase="C:\Users\bogun\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebHW_3" path="/WebHW_3" reloadable="true" source="org.eclipse.jst.jee.server:WebHW_3"/></Host>
     </Engine>
   </Service>
 </Server>

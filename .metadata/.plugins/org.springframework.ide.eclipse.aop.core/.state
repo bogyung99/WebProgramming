@@ -2,4 +2,5 @@
 <aop-reference-model>
 <aop-project name="spring_product"/>
 <aop-project name="WebHW_2"/>
+<aop-project name="hibernateexample"/>
 </aop-reference-model>
